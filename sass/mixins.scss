@@ -1,0 +1,17 @@
+/*Defining Mixin which will take the borser radius a parameter and customises*/
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+/*Defining Mixin which will take the background color a parameter and customises*/
+@mixin background-color($color){
+    -webkit-background-color: $color;
+    -moz-background-color: $color;
+    -ms-background-color: $color;
+    background-color: $color;
+}
+
+//we will import this mixin in main scss file

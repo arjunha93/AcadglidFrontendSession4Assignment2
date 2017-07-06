@@ -1,0 +1,44 @@
+/*Import the mixin.scss file here @import 'path/filename' */
+/*Defining Mixin which will take the borser radius a parameter and customises*/
+/*Defining Mixin which will take the background color a parameter and customises*/
+/*use the mixin for border radius and background-color of first div by include keyword*/
+#first, #second, #third {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-background-color: floralwhite;
+  -moz-background-color: floralwhite;
+  -ms-background-color: floralwhite;
+  background-color: floralwhite;
+  /*add some more atyle to first div*/
+  width: 500px;
+  position: relative;
+  border: 5px solid aqua; }
+
+/*Now extend the same style applied for first div to second and third div*/
+#second {
+  /*add some more style to second div*/
+  padding: 20px;
+  margin: 30px;
+  color: olivedrab; }
+
+#third {
+  /*add some more atyle to third div*/
+  padding: 30px;
+  margin: 40px;
+  color: red;
+  /*width: 500px;
+  position: absolute;
+  padding: 20px;
+  margin: 30px;
+  background-color: antiquewhite;
+  color:olivedrab;
+  border:3px solid aqua;*/ }
+
+/*Add some style on hover on first div ,this will be extended to all divs where it is included*/
+#first:hover, #second:hover, #third:hover {
+  color: blueviolet;
+  font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
